@@ -1,0 +1,24 @@
+{
+  "name": "kite-distributor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process-raw-airdrop-data": "node ./src/process-raw-airdrop-data.js",
+    "verify-airdrop-data": "node ./src/verify-airdrop-data.js",
+    "check-chainalysis": "node ./src/check-chainalysis.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.5",
+    "axios": "^1.6.7",
+    "bignumber.js": "^9.1.2",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.1",
+    "web3": "^4.3.0"
+  }
+}
